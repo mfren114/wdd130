@@ -92,29 +92,13 @@ article p {
     
  }
 
- section img {
-    width: 150px;
-    height: auto;
-    margin-bottom: 1rem;
-    border: 1px solid steelblue;
-    padding: 1px;
+ section figure {
+    margin: 1rem auto;
+	display: grid;
+	
  }
 
- section {
-    position: relative;
-	bottom: 700px;
-	left: 15px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 1rem;
-	box-shadow: 0 0 30px #111;
-	opacity: 0.9;
-    margin: 1rem auto;
-    justify-content: space-evenly;
-    align-items: center;
-    max-width: 840px;
-    margin: 1px auto;
- }
+
 
 footer p{
     
