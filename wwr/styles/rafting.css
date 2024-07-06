@@ -63,6 +63,13 @@ header {
     width: 48.3%;
 }
 
+section h2 {
+    background-color: steelblue;
+    padding: 10px;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;;
+}
 article p {
     position: absolute;
     top: 900px;
@@ -93,12 +100,28 @@ article p {
  }
 
  section figure {
-    margin: 1rem auto;
-	display: grid;
-	
+    background-color: steelblue;
+    padding: 10px;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
  }
 
-
+ /*section {
+    position: relative;
+	bottom: 700px;
+	left: 15px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+    margin: 1rem auto;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 840px;
+    margin: 1px auto;
+ }*/
 
 footer p{
     
