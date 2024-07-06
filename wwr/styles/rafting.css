@@ -12,7 +12,7 @@ header, .grid, footer {
 }
 
 :root {
-    --primary-color: #048BA8;
+    --primary-color:white;
     --secondary-color: #F18F01;
     --accent1-color: #2E4057;
     --accent2-color: #99C24D;
@@ -30,7 +30,7 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    color: #f59a13;
+    color: black;
 }
 
 
@@ -119,6 +119,8 @@ article p {
 footer p{
     text-indent: 0px;
 }
-footer a{
+footer nav{
     text-decoration: none;
+    display: flex;
+    justify-content: right;
 }
