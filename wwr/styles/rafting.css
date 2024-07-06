@@ -113,10 +113,11 @@ article p {
     justify-content: space-evenly;
     align-items: center;
     max-width: 840px;
-    margin: 0 auto;
+    margin: 1px auto;
  }
 
 footer p{
+    
     text-indent: 0px;
 }
 footer nav{
