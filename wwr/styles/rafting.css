@@ -68,8 +68,17 @@ section h2 {
     padding: 10px;
     display: grid;
     justify-content: space-evenly;
-    align-items: center;;
+    align-items: center;
+    margin-top: 1rem;
+    line-height: 1rem;
 }
+section p{
+    line-height: 1rem;
+}
+article h6 {
+    margin-bottom: auto;
+}
+
 article p {
     position: absolute;
     top: 900px;
@@ -103,10 +112,15 @@ article p {
     background-color: steelblue;
     padding: 10px;
     display: grid;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
  }
 
+ section {
+    position: relative;
+    padding-bottom: 1rem;
+	
+ }
  /*section {
     position: relative;
 	bottom: 700px;
