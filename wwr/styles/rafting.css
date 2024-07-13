@@ -8,7 +8,7 @@
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Rock+Salt', serif;
-    --accent2-color-rgb:rgb(181, 252, 181);
+    --accent2-color-rgb: 144, 224, 239;
     --nav-background-color: #6cdde0;
     --nav-link-color: #2E4057;
     --nav-hover-link-color: #99C24D;
@@ -42,7 +42,7 @@ header, footer {
 }
 
 img {
-    overflow-clip-margin: content-box;
+    /*overflow-clip-margin: content-box;*/
     overflow: clip;
 }
 
@@ -90,7 +90,7 @@ h1 {
 }
 
 .hero article, .history {
-    background-color: green, 0.5);
+    background-color: rgba(var(--accent2-color-rgb), 0.5);
     padding: 1rem;
 }
 
@@ -101,7 +101,7 @@ article {
 
 .hero article img {
     width: 200px;
-    height: 200px;
+    height: 140px;
     float: right;
 }
 
@@ -141,7 +141,12 @@ h2 {
     align-items: center;
 }
 
-.hero img, .history img, .adventures img, .team img {
+.history img {
+ width: auto;
+ height: auto;
+}
+
+.hero img,.adventures img, .team img {
     width: 100%;
     height: auto;
 }
