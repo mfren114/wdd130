@@ -43,8 +43,32 @@
                 </figure>
                 <figure><img src="images/zachtomato.jpg" alt="Zach Tomato">
                 <figcaption>Zach Tomato</figcaption>
+                </figure>
             </div>
         </section>
+        <form>
+            <fieldset>
+                <legend>Comment Form</legend>
+                <label for="name">Full Name</label>
+                <textarea id="name" name="name" rows="1"></textarea>
+                <label for="email">Email Address</label>
+                <textarea id="email" name="email" rows="1" ></textarea>
+                <label for="purpose">Please select the purpose of your message:</label>
+                <input  type="radio" id="general_inquiry" name="purpose" value="General Inquiry">
+                <label for="general_inquiry">General Inquiry</label>.
+                <br>
+                <input  type="radio" id="reservation_question" name="purpose" value="Reservation Question">
+                <label for="general_inquiry">Reservation Question</label>.
+                <br>
+                <input  type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
+                <label for="website_suggestion">Website Suggestion</label>.
+                <br>  
+                </select>
+                <label for="message">Leave a message</label>
+                <input type="text" id="message" name="message">
+            </fieldset>
+            <button type="submit">Submit Comment</button>
+        </form>
     </main>
     <footer>
         <p>©2024 | Mathew Frenette | Life Adventures</p>
