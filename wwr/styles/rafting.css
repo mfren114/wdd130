@@ -100,8 +100,8 @@ article {
 }
 
 .hero article img {
-    width: 200px;
-    height: 140px;
+    width: 560px;
+    height: 330px;
     float: right;
 }
 
@@ -270,7 +270,7 @@ input[type="radio" i] {
     cursor: default;
     appearance: auto;
     box-sizing: border-box;
-    margin: 3px 3px 0px 5px;
+    margin: 3px 3px -30px 5px;
     padding: initial;
     border: initial;
 }
