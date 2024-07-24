@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 3em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -100,8 +100,8 @@ article {
 }
 
 .hero article img {
-    width: 560px;
-    height: 330px;
+    width: 350px;
+    height: 160px;
     float: right;
 }
 
@@ -355,4 +355,17 @@ td {
 
 .overlay button {
     color: #eee;
+    background-color: #F18F01;
+}
+
+.form-item {
+    display: grid;
+    justify-content: center;
+    margin: 1rem;  
+}
+
+figure p {
+    display: block;
+    unicode-bidi: isolate;
+    padding: 10px;
 }
